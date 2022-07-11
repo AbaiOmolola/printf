@@ -8,7 +8,7 @@
 #include <limits.h>
 
 /**
- * struct convert - define a structure 
+ * struct convert - define a structure
  *
  * @oma: the operator
  * @f: the function associated
