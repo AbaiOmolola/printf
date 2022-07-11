@@ -24,5 +24,5 @@ typedef struct convert conver_t;
 
 int _printf(const char *format, ...);
 int _putchar(char c);
-int format_receiver(const char *format, conver_t f_list[], va_list arg_list);
+int format_reciever(const char *format, conver_t f_list[], va_list arg_list);
 int print_percent(va_list);
