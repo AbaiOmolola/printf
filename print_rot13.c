@@ -20,7 +20,7 @@ int print_rot13(va_list list)
 	{
 		for (x = 0; x <= 52; x++)
 		{
-			if (str[i] == str[x])
+			if (str[i] == s[x])
 			{
 				_putchar(u[x]);
 				break;
