@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * format_reciever - receives the main string and all
