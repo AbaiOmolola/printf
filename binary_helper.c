@@ -10,7 +10,7 @@
 unsigned int base_len(unsigned int num, int base)
 {
 	unsigned int i;
-	for (i = 0; num > 0; i++;)
+	for (i = 0; num > 0; i++)
 	{
 		num = num / base;
 	}
@@ -39,7 +39,7 @@ char *rev_string(char *s)
 	if (dest == NULL)
 		return (NULL);
 
-	_memcpy(desty, s, len);
+	_memcpy(dest, s, len);
 	for (head = 0; head < len; head++, len--)
 	{
 		tmp = dest[len - 1];
@@ -59,7 +59,7 @@ void write_base(char *str)
 	int i;
 
 	for (i = 0; str[i] != '\0'; i++)
-		_putchar(s[i]);
+		_putchar(str[i]);
 }
 
 /**
