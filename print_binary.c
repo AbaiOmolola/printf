@@ -17,10 +17,14 @@ int print_binary(va_list list)
 		return (_putchar('0'));
 	if (num < 1)
 		return (-1);
+	len = base_len(num, 2);
+	str = malloc(sizeof(char) * len + 1);
+	if  (str == NULL)
+		return (-1);
 
 	for (i = 0; num > 0; i++)
 	{
-		if (num 2 == 0)
+		if (num % 2 == 0)
 			str[i] = '0';
 		else
 			str[i] = '1';
