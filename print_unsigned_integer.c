@@ -5,7 +5,7 @@
  * @list: list all the arguments
  * Return: a count of the numbers
  */
-int print_unsigned_intger(va_list list)
+int print_unsigned_integer(va_list list)
 {
 	unsigned int num;
 
