@@ -8,13 +8,13 @@
 /**
  * struct convert - define a structure
  *
- * @oma: the operator
+ * @sym: the operator
  * @f: the function associated
  */
 
 struct convert
 {
-	char *oma;
+	char *sym;
 	int (*f)(va_list);
 };
 typedef struct convert conver_t;
