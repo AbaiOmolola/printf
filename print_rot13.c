@@ -29,5 +29,5 @@ int print_rot13(va_list list)
 		if (x == 53)
 			_putchar(str[i]);
 	}
-	retutn (i);
+	return (i);
 }
