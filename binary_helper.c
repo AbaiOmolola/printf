@@ -93,10 +93,11 @@ int hex_check(int num, char x)
 {
 	char *hex = "abcdef";
 	char *HEX = "ABCDEF";
+
 	 num = num - 10;
 	 if ( x == 'x')
 		 return (hex[num]);
 	 else
-		 return (hex[num]);
+		 return (Hex[num]);
 	 return (0);
 }
