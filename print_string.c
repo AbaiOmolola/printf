@@ -5,7 +5,7 @@
  * @list: list of argument
  * Return: will return the amount of character
  */
-int print-string(va_list list)
+int print_string(va_list list)
 {
 	int i;
 	char *str;
