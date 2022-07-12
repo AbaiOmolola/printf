@@ -36,7 +36,7 @@ int print_hex(va_list list);
 int print_HEX(va_list list);
 int print_String(va_list val);
 int print_pointer(va_list val);
-int print_rev(va_list 1);
+int print_rev(va_list l);
 int print_rot13(va_list list);
 
 int print_number(va_list args);
