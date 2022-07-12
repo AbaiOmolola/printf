@@ -11,7 +11,7 @@ int print_rev(va_list l)
 	char *s = va_arg(l, char *);
 
 	if (!s)
-		s = "(null)';
+		s = "(null)";
 
 	while (s[i])
 		i++;
