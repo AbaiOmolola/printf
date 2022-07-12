@@ -39,7 +39,7 @@ int print_hex(va_list list)
 	hex_rep[len] = '\0';
 	rev_hex = rev_string(hex_rep);
 	if (rev_hex == NULL)
-		retutn (-1);
+		return (-1);
 	write_base(rev_hex);
 	free(hex_rep);
 	free(rev_hex);
