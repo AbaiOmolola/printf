@@ -11,7 +11,6 @@ int print_octal(va_list list)
 	int len;
 	char *octal_rep;
 	char *rev_str;
-	
 	num = va_arg(list, unsigned int);
 
 	if (num == 0)
