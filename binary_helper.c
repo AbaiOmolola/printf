@@ -95,7 +95,7 @@ int hex_check(int num, char x)
 	char *HEX = "ABCDEF";
 
 	 num = num - 10;
-	 if ( x == 'x')
+	 if (x == 'x')
 		 return (hex[num]);
 	 else
 		 return (Hex[num]);
