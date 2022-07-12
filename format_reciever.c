@@ -17,9 +17,9 @@ int format_reciever(const char *format, conver_t f_list[], va_list arg_list)
 	{
 		if (format[i] == '%')
 		{
-			for (j = 0; f_list[j].oma != NULL; j++)
+			for (j = 0; f_list[j].sym != NULL; j++)
 			{
-				if (format[i + 1] == f_list[j].oma[0])
+				if (format[i + 1] == f_list[j].sym[0])
 				{
 					r_val = f_list[j].f(arg_list);
 					if (r_val == -1)
@@ -28,7 +28,7 @@ int format_reciever(const char *format, conver_t f_list[], va_list arg_list)
 					break;
 				}
 			}
-			if (f_list[j].oma == NULL && format[i + 1] != ' ')
+			if (f_list[j].sym == NULL && format[i + 1] != ' ')
 			{
 				if (format[i + 1] != '\0')
 				{
