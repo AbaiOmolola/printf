@@ -11,11 +11,12 @@ int print_octal(va_list list)
 	int len;
 	char *octal_rep;
 	char *rev_str;
+	
 	num = va_arg(list, unsigned int);
 
 	if (num == 0)
 		return (_putchar('0'));
-	if num (num < 1)
+	if (num < 1)
 		return (-1);
 	for (len = 0; num > 0; len++)
 	{
